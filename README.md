@@ -1,4 +1,4 @@
-# LeetCode Practice Repository  
+# LeetCode Journal
 
 Welcome to our LeetCode practice repo! This repository is dedicated to recording our problem-solving journey using **Python** and **C++**.  
 
