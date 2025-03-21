@@ -1,6 +1,6 @@
-# 2115. Find All Possible Recipes from Given Supplies
+# 2115. Find All Possible Recipes from Given Supplies 🟡
 
-[🔗 2115](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies)
+[🔗 2115 ](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies)
 
 ## Description
 Given a 1D array `recipes`, a 2D array `ingredients` and a 1D string array for strings `supplies`, where the recipe at `recipe[i]` can be created using the ingredients in `ingerdients[i]`, and `supplies` indicated the ingredients you initially have.
