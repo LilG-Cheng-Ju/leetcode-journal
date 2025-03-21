@@ -10,7 +10,7 @@
 ## 夥伴們
 - ### **Cheng-Ju (Clement) Lee**  
     🖥️ **AI工程師 in ASUS**  
-    **[📂 點這裡查看詳細資訊](docs/contributors/Clement_Lee.pdf)** 
+    **[📂 查看履歷](docs/contributors/Clement_Lee.pdf)** 
 
     <p align="left">
     <a href="mailto:billlcj104@gmail.com">
