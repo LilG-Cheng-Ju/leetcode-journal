@@ -1,13 +1,15 @@
 # 437. Path Sum III 🟡
 
-[🔗 437 ](https://leetcode.com/problems/path-sum-iii/description/)
+[🔗 437. Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
 
 ## Description
 Given the `root` of a binary tree and an integer `targetSum`, return the number of paths where the sum of the values along the path equals `targetSum`.
 
 The path does not need to start or end at the root or a leaf, but it must go downwards (i.e., traveling only from parent nodes to child nodes).
 
-## [Approach - Prefix Sum with DFS + Hash map]
+## Approach - Prefix Sum with DFS + Hash map
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](solution.cpp)
+
 `ans` keeps track of the number of valid paths.
 Use a `hashMap` to store prefix sums encountered during DFS traversal.
 

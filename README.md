@@ -2,7 +2,7 @@
 
 Welcome to our LeetCode practice repo! This repository is dedicated to recording our problem-solving journey using **Python** and **C++**.  
 
-**[🌏 Chinese (中文)](README_zh.md)**
+[![中文 Readme](https://img.shields.io/badge/🌏%20Chinese%20-中文-blue)](README_zh.md)
 
 ## 📂 Repository Structure  
 ```plaintext
@@ -15,11 +15,15 @@ repo_root/
   ├── README_zh.md       
 ```
 
-
 ## 📜 How to Use  
 - Browse the `problems/` directory to see our problem-solving records.  
 - Check `docs/algorithms/` for algorithm-related discussions.  
 - Discover more about the contributors in `docs/contributors/`.  
+- If you'd like to join us, please follow the instructions and the format in the template below.  
+  [![中文 Template](https://img.shields.io/badge/中文-Template-34495E)](problems/template_zh.md) 
+  [![English Template](https://img.shields.io/badge/English-Template-27AE60)](problems/template_en.md)  
+- Keep pushing forward—solving problems is tough, but every step you take builds your strength and wisdom!  
+
 
 ## Contributers
 - ### **Cheng-Ju (Clement) Lee**  
