@@ -63,7 +63,7 @@ for i in range(1, n + 1):
 
 ## 空間複雜度優化
 
-- 0/1 背包 (倒序)
+### 0/1 背包 (倒序)
 
 ```python
 dp = [0] * (W + 1)
@@ -73,7 +73,7 @@ for i in range(n):  # 遍歷物品
         dp[j] = max(dp[j], dp[j - weight[i]] + value[i])
 ```
 
-- 完全背包 (正序)
+### 完全背包 (正序)
 
 ```python
 dp = [0] * (W + 1)
@@ -81,6 +81,21 @@ dp = [0] * (W + 1)
 for i in range(n):  # 遍歷物品
     for j in range(weight[i], W + 1):  # 正序，允許重複使用
         dp[j] = max(dp[j], dp[j - weight[i]] + value[i])
+```
+
+### `可不可以湊成某個數字`  問題
+
+```python
+# weights: 物品重量
+# target: 目標容量
+dp = [False] * (target + 1)
+dp[0] = True  # 容量為 0 必然能達成（選擇空集合）
+
+for w in weights:  # 每個物品只能選一次 => 倒序
+    for j in range(target, w - 1, -1):
+        dp[j] = dp[j] or dp[j - w]
+
+# 最後判斷 dp[target] 是否為 True
 ```
 
 ## 複雜度分析
