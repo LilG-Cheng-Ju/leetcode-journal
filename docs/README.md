@@ -1,5 +1,7 @@
 # Algorithms
 
+- [Bellman-Ford](algorithms/Bellman-Ford.md)
+- [Dijstra's Algorithm](algorithms/Dijstra%27s%20Algorithm.md)
 - [Union-Find (Disjoint Set)](algorithms/Union-Find%20%28Disjoint%20Set%29.md)
 - [binary search](algorithms/binary%20search.md)
 - [knapsack](algorithms/knapsack.md)
