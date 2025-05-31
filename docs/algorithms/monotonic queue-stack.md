@@ -67,8 +67,9 @@ def nextGreater(nums):
 
     for i in range(n):
         while stack and nums[i] > nums[stack[-1]]:
-            idx = stack.pop()
-            res[idx] = nums[i]
+            stack.pop()
+        if stack:
+            res[i] = nums[stack[-1]]
         stack.append(i)
 
     return res
